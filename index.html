@@ -1,33 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Café Express</title>
-    <meta name="author" content="Flaesio Alves">
-    <meta name="description" content="Café aconchegante com os melhores grãos especiais e ambiente perfeito para trabalhar ou relaxar.">
-    <meta name="keywords" content="Café, Grãos Especiais, Ambientes Aconchegnate,Trabalho,Relaxar">
-    <link rel="preconnect" href="https://fonts.googleapiscom">
-    <link rel="preconnect" href="https://fonts.gstatic" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./vendor/normalize.css">
-    <link rel="stylesheet" href="./pages/index.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-</head>
-<body>
-<div class="page">
-    <header class="header">Testando...
-    </header>
-<main class="content">
-    <section class="recipes">
-    </section>
-    <section class="reservation">
-    </section>
+    <meta name="author" content="Flaesio Alves" />
+    <meta
+      name="description"
+      content="Café aconchegante com os melhores grãos especiais e ambiente perfeito para trabalhar ou relaxar."
+    />
+    <meta
+      name="keywords"
+      content="Café, Grãos Especiais, Ambientes Aconchegnate,Trabalho,Relaxar"
+    />
+    <link rel="preconnect" href="https://fonts.googleapiscom" />
+    <link rel="preconnect" href="https://fonts.gstatic" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            class="nav__logo"
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="logo cafe logo_coffeeshop_dark"
+          />
+          <ul class="nav__links">
+            <li>
+              <a href="#" class="nav__link"> Receitas</a>
+            </li>
 
-</main>
-<footer class="footer">
-</footer>
-</div>
-</body>
+            <li>
+              <a href="#" class="nav__link"> Reservar uma mesa</a>
+            </li>
 
+            <li>
+              <a href="#" class="nav__link">Contatos</a>
+            </li>
+          </ul>
+        </nav>
+
+        <h1 class="header__title">
+          <span class="span-accent">Café especial&nbsp;<br /></span>Na
+          Biblioteca Triple Peaks
+        </h1>
+        <p class="header__description">
+          Esta é nossa zona de estudo! Temos aquele cafezinho para energizar
+          você e vibrações aconchegantes para soltar a criatividade.
+        </p>
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="img inside_coffee_shop"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <div>
+            <p class="header__paragraph">Horários</p>
+            <p class="header__paragraph">Segunda a Sexta (10:00 - 19:00)</p>
+            <p class="header__paragraph">Sábado e Domingo (11:00 - 18:00)</p>
+          </div>
+          <p class="header__paragraph">
+            200 Sucesso Avenue, a cidade de Triple Peaks
+          </p>
+        </div>
+      </header>
+      <main class="content">
+        <section class="recipes"></section>
+        <section class="reservation"></section>
+      </main>
+    </div>
+  </body>
 </html>
